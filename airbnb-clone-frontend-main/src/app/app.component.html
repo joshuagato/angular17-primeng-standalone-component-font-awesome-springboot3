@@ -1,0 +1,8 @@
+<p-toast></p-toast>
+<app-navbar></app-navbar>
+<div [class.mx-8]="isListingView" class="grid grid-nogutter mb-5">
+  <div class="col mt-5">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<app-footer></app-footer>
